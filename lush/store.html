@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=1,shrink-to-fit=no">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">        
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="css/sub.css" rel="stylesheet" type="text/css">
+	
+	<script src="js/jquery-3.5.1.js"></script>
+	<script src="js/store.js"></script>
+	<script src="js/main.js"></script>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxM6uxgyVfDExVjsUSVQWRh7mek-fst5Q&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+	
+	<title>STORE</title>
+</head>
+<body>
+	<div class="wrap">
+		<header class="header_top">
+			<h1><a href="index.html" class="ir_pm">LUSH</a></h1>
+			<a href="#" class="menu_btn" id="nav_toggle">
+				<span></span> 
+				<span></span>
+				<span></span>
+			</a><!--menu_btn-->
+		</header><!--header_top-->
+		<div class="navi">
+			<ul class="main_nav">
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="product.html">PRODUCT</a></li>
+				<li><a href="spa.html">SPA</a></li>
+				<li><a href="store.html">STORE</a></li>
+			</ul><!--main_nav-->
+			<span class="pc"></span>
+		</div>
+		
+		<div class="sub_visual product_visual spa_visual store_visual">
+			<div>
+				<h2>LUSH<span>STORE</span></h2>
+				<p class="pc">가까운 러쉬 매장에서 느끼는 향기로운 경험!</p>
+				<span class="btn"><a href="#">MORE</a></span>
+			</div>
+		</div><!--about_visual-->
+		
+		<div id="map"></div>
+		
+		<section class="store_shop">
+			<div class="store">
+			
+				<ul class="store_list">
+				
+					<li class="store_search">
+						<h2>매장안내</h2>
+						<div class="sub_shop">
+							<h3>SHOP</h3>
+							<input type="text" id="shop" name="shop" placeholder="매장 이미지 클릭" value="매장 이미지 클릭"/>
+							<span></span>
+						</div>
+						<div class="sub_tel">
+							<h3>TEL</h3>
+							<input type="text" id="tel" name="tel" placeholder="매장 이미지 클릭" value="매장 이미지 클릭"/>
+							<span></span>
+						</div>
+					</li>
+					
+					<li class="store_1 shop_list">
+						<a href="#" class="ir_pm">현대백화점</a>
+						<p><a href="#" title="현대백화점 압구정 본점" data-t="02-AAA-AAAA">현대백화점 압구정 본점</a></p>
+					</li>
+					<li class="store_2 shop_list">
+						<a href="#" class="ir_pm">롯데백화점</a>
+						<p><a href="#" title="롯데백화점 영등포점" data-t="02-BBB-BBBB">롯데백화점 영등포점</a></p>
+					</li>
+					<li class="store_3 shop_list">
+						<a href="#" class="ir_pm">강남역</a>
+						<p><a href="#" title="강남역" data-t="02-CCC-CCCC">강남역</a></p>
+					</li>
+					<li class="store_4 shop_list">
+						<a href="#" class="ir_pm">롯데백화점 수원</a>
+						<p><a href="#" title="롯데백화점 수원" data-t="02-DDD-DDDD">롯데백화점 수원</a></p>
+					</li>
+					<li class="pc store_5 shop_list">
+						<a href="#" class="ir_pm">현대백화점</a>
+						<p><a href="#" title="현대백화점 압구정 본점" data-t="02-EEE-EEEE">현대백화점 압구정 본점</a></p>
+					</li>
+				</ul>
+				<ul class="num">
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+				</ul>
+			</div>
+		</section><!--store_top-->
+		
+		<footer>
+			<div class="footer_left">
+				<h2><a href="index.html" class="ir_pm">LUSH</a></h2>
+				<p class="pc">Copyright LUSHKOREA.,Ltd.All rights reserved.</p>
+			</div>
+			
+			<ul class="footer_icon">
+				<li><a href="#" class="ir_pm">facebook</a></li>
+				<li><a href="#" class="ir_pm">youtube</a></li>
+				<li><a href="#" class="ir_pm">twitter</a></li>
+				<li><a href="#" class="ir_pm">google</a></li>
+			</ul>
+			<p>Copyright LUSHKOREA.
+			<span>,Ltd.All rights reserved.</span></p>
+		</footer>
+	</div><!--wrap-->
+	
+</body>
+</html>

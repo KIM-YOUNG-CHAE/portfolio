@@ -1,0 +1,44 @@
+/* text_box */
+h2{
+    font-size:3.6rem; color:#FF9900;
+}
+h2>span{
+    display:block; line-height: 46px;
+}
+/* 엘리먼트박스 모바일텍스트 */
+.et_box p{
+    font-size:1.6rem;color:#fff; line-height:24px;
+}
+/* 컨텐츠박스 모바일텍스트 */
+.ct_box h3{
+    font-size:2.8rem; color:#fff; text-align:center;
+    margin-top:26px; margin-bottom:20px; line-height:34px;
+}
+.ct_box h3>span{
+    display:block;
+}
+.ct_box p{
+    font-size:1.8rem; font-weight:550;
+    line-height:24px; color:#fff; 
+    padding:0 9.21%;
+}
+/* text_box_end */
+
+
+/* main_visual */
+.visual_wrap{
+    background:#21252c;width:100%;
+}
+.about_visual{
+   background:url(../img/sub1/sub01_about_main.jpg) no-repeat center/cover; 
+}
+.about_visual>p{}
+
+/* main_visual_end---------------- */
+
+
+
+
+
+
+
